@@ -83,7 +83,7 @@ public:
         return _count;
     }
 
-    int capacity(){
+    size_type capacity() const {
         return _size;
     }
 
